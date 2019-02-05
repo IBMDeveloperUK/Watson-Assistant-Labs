@@ -99,7 +99,7 @@ Also, _contextual entities_ will still function - even if we haven't defined a v
 
 ## Build `searchWikipedia` _**IBM Cloud Function**_
 
-**(1)** Now let's build an **_IBM Cloud Function_** that will search **_Wikipedia_** and return information from that repository about a phone model. On the [Create Action page](https://cloud.ibm.com/openwhisk/create/action), enter `searchWikipedia` as the **Action Name** and hit `Create`.
+**(1)** Now let's build an **_IBM Cloud Function_** that will search **_Wikipedia_** and return information from that repository about a phone model. On the [Create Action page](https://cloud.ibm.com/openwhisk/create/action), enter `searchWikipedia` as the **Action Name**, select `Node.js 8` as the **Runtime** and hit `Create`.
 
 ![](./images/16-create-cloud-function.jpg)
 

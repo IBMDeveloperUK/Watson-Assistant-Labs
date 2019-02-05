@@ -1,9 +1,6 @@
 # _**Watson Assistant Lab 2**_: Extending Your Chatbot with Watson Discovery
 This lab will focus on extending your simple chatbot to handle _long-tail_ conversations, by using the _**Watson Discovery**_ service.
 
-## Requirements
-- Successful completion of [Lab 1: Understanding User Sentiment - Integrating Watson Natural Language Understanding](../1-Sentiment).
-
 ## Agenda:
 - Introduction to _**Watson Discovery**_
 - Setup the _Discovery_ service
@@ -185,7 +182,7 @@ For more on building queries, have a look at the tutorial [here](https://cloud.i
 **(5)** When _**Watson Discovery**_ has processed all the documents, we can build a an _**IBM Cloud Function**_ to access the _collection_, and then incorporate it into our _**Watson Assistant**_ chatbot.
 
 ## Create a _Discovery_ _**IBM Cloud Function**_
-**(1)** Go to _**IBM Cloud Functions**_ and create a new action via the sidebar menu in IBM Cloud, or directly via [this link](https://cloud.ibm.com/openwhisk/create/action). Call it `getDiscoveryTopHit`.
+**(1)** Go to _**IBM Cloud Functions**_ and create a new action via the sidebar menu in IBM Cloud, or directly via [this link](https://cloud.ibm.com/openwhisk/create/action). Call it `getDiscoveryTopHit` and select `Node.js 8` as the **Runtime**.
 
 ![](./images/24-create-action.jpg)
 
