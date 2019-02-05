@@ -12,8 +12,9 @@ Once you've worked through the lab exercises, you'll be fully equipped to create
 ## Before you begin
 
 To complete this workshop you will need:
-- IBM Cloud account
-- Watson Assisatnt service
+- an IBM Cloud account
+- a Watson Assisatnt service
+- to import an existing Skill
 
 **Creating your IBM Cloud account**
 
@@ -25,6 +26,17 @@ To complete this workshop you will need:
 1. Click on "Catalog" on the top-right corner
 2. Search and select "Watson Assistant" 
 3. Click "Create"
+
+**Importing a Skill to your Watson Assistant**
+First of all, download the following Skill file and save it somewhere you'll remember.
+
+1. Go go your [Resource list page](https://cloud.ibm.com/resources)
+2. Click on your Assistant service under the **Services** dropdown
+3. Launch the tool by clicking on the **Launch tool** button
+4. On the homepage, click **Create a Skill**
+5. Select **Create New**
+6. Go on the **Import Skill** tab, click **Choose JSON File** and select the previously downloaded file.
+7. Click **Import**! 
 
 ## All set!
 
