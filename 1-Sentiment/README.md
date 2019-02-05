@@ -49,13 +49,15 @@ In our case, we are just going to use the sentiment data to 'grade' the sentimen
 
 ![](./images/05-create-nlu-service.jpg)
 
+**(2)** Under **Choose a region/location to deploy in:** select **Dallas**
+
 ![](./images/06-create-nlu-service2.jpg)
 
-**(2)** Once your service is created, click `Manage`. We'll need the **API key** from this page to access the service later, so copy it from here by clicking the `Copy to clipboard!` icon and save it by pasting it to a temporary file/note.
+**(3)** Once your service is created, click `Manage`. We'll need the **API key** from this page to access the service later, so copy it from here by clicking the `Copy to clipboard!` icon and save it by pasting it to a temporary file/note.
 
 ![](./images/13-nlu-credentials.jpg)
 
-**(3)** Next, we need a mechanism by which we can call the NLU service - passing our review text to the API - and return a sentiment score. We'll do this by creating an _**IBM Cloud Function**_.
+**(4)** Next, we need a mechanism by which we can call the NLU service - passing our review text to the API - and return a sentiment score. We'll do this by creating an _**IBM Cloud Function**_.
 
 With _**IBM Cloud Functions**_ you can write lightweight code that executes application logic in a scalable way. You can then run this code on-demand via requests from applications like our _**Watson Assistant**_ chatbot, or automatically in response to events.
 
@@ -70,11 +72,11 @@ As you've already seen, _**Watson Assistant**_ is great at collecting the requir
 
 ![](./images/07-cloud-function-example.jpg)
 
-**(3)** Fortunately, most web services we might want to use publish the format of their API calls, so building an _**IBM Cloud Function**_ to call them is usually relatively straightforward.
+**(5)** Fortunately, most web services we might want to use publish the format of their API calls, so building an _**IBM Cloud Function**_ to call them is usually relatively straightforward.
 
 IBM Watson service calls are documented [here](https://github.com/watson-developer-cloud) for a number of different programming languages. We're going to use _Javascript_ (as we'll also use it in later labs) - you can take a look at the documentation and templates we've modelled the calls on [here](https://github.com/watson-developer-cloud/node-sdk) if you wish, although we'll supply all of the code you need to complete the lab.
 
-**(4)** Go to _**IBM Cloud Functions**_ by selecting the `burger icon` in the top left-hand corner, then `Functions`. From there, click `Start Creating`, then `Create Action`.
+**(6)** Go to _**IBM Cloud Functions**_ by selecting the `burger icon` in the top left-hand corner, then `Functions`. From there, click `Start Creating`, then `Create Action`.
 
 ![](./images/08-find-functions.jpg)
 
@@ -82,7 +84,7 @@ IBM Watson service calls are documented [here](https://github.com/watson-develop
 
 ![](./images/10-create-action.jpg)
 
-**(5)** Call your new action `getSentiment` and hit `Create`.
+**(7)** Call your new action `getSentiment` and hit `Create`.
 
 ![](./images/11-create-get-sentiment.jpg)
 
@@ -132,19 +134,19 @@ function main({payload: payload}) {
 return promise;
 }
 ```
-**(6)** You only need to make one change to this code. Replace `<iam_api_key>` with the value of the **API key** you saved earlier from your _**Watson NLU**_ credentials, then hit `Save`.
+**(8)** You only need to make one change to this code. Replace `<iam_api_key>` with the value of the **API key** you saved earlier from your _**Watson NLU**_ credentials, then hit `Save`.
 
 ![](./images/14-get-sentiment-code-complete.jpg)
 
 The code accepts text as input (_payload_), calls the _**Watson NLU**_ service (using the _features_ parameter to specify the need for _sentiment analysis_), and returns the sentiment value (_score_).
 
-**(7)** You can test _**IBM Cloud Functions**_ from within the editor. Click `Change Input`, replace the data in the `Change Action Input` window with the data below, and hit `Apply`.
+**(9)** You can test _**IBM Cloud Functions**_ from within the editor. Click `Change Input`, replace the data in the `Change Action Input` window with the data below, and hit `Apply`.
 ```Javascript
 {"payload": "The iPhone XR looks really cool and has a lot of great apps."}
 ```
 ![](./images/15-test-function.jpg)
 
-**(8)** If you now select `Invoke`, the testing dialog will pass this payload text to the NLU service, and return a sentiment score.
+**(10)** If you now select `Invoke`, the testing dialog will pass this payload text to the NLU service, and return a sentiment score.
 
 ![](./images/16-invoke-function.jpg)
 

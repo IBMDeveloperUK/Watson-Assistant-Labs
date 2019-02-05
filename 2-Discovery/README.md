@@ -44,7 +44,7 @@ _**Watson Discovery**_ runs as a service on IBM Cloud, so we first need to creat
 
 ![](./images/03-discovery-service.jpg)
 
-Again, give the service a unique name that you will be able to recall - use the `Lite` plan if you are using your personal IBM Cloud ID, or `Advanced` if you are using a linked account) - and hit `Create`.
+Again, give the service a unique name that you will be able to recall - use the `Lite` plan if you are using your personal IBM Cloud ID, or `Advanced` if you are using a linked account) - and hit `Create`. Under **Choose a region/location to deploy in:** select **Dallas**.
 
 ![](./images/04-create-service.jpg)
 

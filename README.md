@@ -25,6 +25,7 @@ To complete this workshop you will need:
 **Provisioning the Watson Assistant service**
 1. Click on "Catalog" on the top-right corner
 2. Search and select "Watson Assistant" 
+3. Under **Choose a region/location to deploy in:** select **Dallas**
 3. Click "Create"
 
 **Importing a Skill to your Watson Assistant**
