@@ -46,5 +46,4 @@ The workshop materials for each part of the lab are contained in the subfolders 
 * [Lab 1: Understanding User Sentiment - Integrating Watson Natural Language Understanding](./1-Sentiment)
 * [Lab 2: Extending Your Chatbot with Watson Discovery](./2-Discovery)
 * [Lab 3: Integrating External Data using IBM Cloud Functions](./3-External)
-
-You should _follow the materials in this order_.  
+* [Lab 4: Chatbot Integrations](./4-Integrations)

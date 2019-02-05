@@ -305,10 +305,7 @@ Finally, in our `Help & Reset Context` node, set the context variables `$brandFo
 
 ![](./images/31-reset-context.jpg)
 
-**(11)** Test your new dialog with `Try It`. When it works, try it out with one of your _integrations_. It should look something like this:
-
-![](./images/32-nlu-integration1.jpg)
-![](./images/33-nlu-integration2.jpg)
+**(11)** Test your new dialog with `Try It`.
 
 ## Summary
 You've reached the end of this lab! By completing it you've learned how to further enhance your chatbot by calling additional services using _**IBM Cloud Functions**_. And you should now also understand what _**Watson Natural Language Understanding**_ is, and how to use _sentiment_ and _emotion_ with chatbots.

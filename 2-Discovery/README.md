@@ -357,11 +357,7 @@ And reinitialise the `$discoveryData` _context variable_ by adding it with a `nu
   - `My S4 changed name when connected to PC` (_Discovery_)
   - `Blah blah` (neither path works - user should get a _"I don't understand"_ message)
 
-Use `Try It` to work out any issues, then use one of your _integrations_ to see it working in production!
-
-![](./images/33-slack-testing-1.jpg)
-![](./images/34-slack-testing-2.jpg)
-![](./images/35-slack-testing-3.jpg)
+Use `Try It` to try it out! 
 
 ## Summary
 Congratulations! You've extended your chatbot to include _long-tail responses_ using a _**Watson Discovery**_ collection. Now if your chatbot can't find a specific response to your user's question within _**Watson Assistant**_, it will use _Discovery_ to search for answers from a larger corpus of information.
