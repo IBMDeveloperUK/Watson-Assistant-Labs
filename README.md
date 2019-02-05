@@ -17,7 +17,7 @@ To complete this workshop you will need:
 
 **Creating your IBM Cloud account**
 
-1. [Sign up for an account here](cloud.ibm.com)
+1. [Sign up for an account here](https://cloud.ibm.com)
 2. Verify your account by clicking on the link in the email sent to you
 3. Log in to your IBM Cloud account
 
@@ -30,8 +30,8 @@ To complete this workshop you will need:
 
 # Workshop materials
 The workshop materials for each part of the lab are contained in the subfolders README files:
-* [Lab 1: Understanding User Sentiment - Integrating Watson Natural Language Understanding](./4-Sentiment)
-* [Lab 2: Extending Your Chatbot with Watson Discovery](./5-Discovery)
-* [Lab 3: Integrating External Data using IBM Cloud Functions](./6-External)
+* [Lab 1: Understanding User Sentiment - Integrating Watson Natural Language Understanding](./1-Sentiment)
+* [Lab 2: Extending Your Chatbot with Watson Discovery](./2-Discovery)
+* [Lab 3: Integrating External Data using IBM Cloud Functions](./3-External)
 
 You should _follow the materials in this order_.  
