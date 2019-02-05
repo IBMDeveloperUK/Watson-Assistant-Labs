@@ -4,8 +4,8 @@ This repository contains a lightweight version of the [Watson Assistant Labs](ht
 
 In these workshops you will see how to:
 - Understand User Sentiment using _**Watson Natural Language Understanding**_
-- Extend your Chatbot using _**Watson Discovery**_
 - Integrate External Data using IBM Cloud Functions
+- Integrate your Chatbot on external platforms (ie. Slack, web page...)
 
 Once you've worked through the lab exercises, you'll be fully equipped to create your own chatbot using _**IBM Cloud**_ and _**IBM Watson**_!
 
@@ -13,7 +13,7 @@ Once you've worked through the lab exercises, you'll be fully equipped to create
 
 To complete this workshop you will need:
 - an IBM Cloud account
-- a Watson Assisatnt service
+- a Watson Assistant service
 - to import an existing Skill
 
 **Creating your IBM Cloud account**
