@@ -28,7 +28,8 @@ To complete this workshop you will need:
 3. Click "Create"
 
 **Importing a Skill to your Watson Assistant**
-First of all, download the following Skill file and save it somewhere you'll remember.
+First of all, download the following Skill file and save it somewhere you'll remember:
+[Skill file (Right click -> Save Link As)](https://github.com/IBMDeveloperUK/Watson-Assistant-Labs/raw/master/workspace.json)
 
 1. Go go your [Resource list page](https://cloud.ibm.com/resources)
 2. Click on your Assistant service under the **Services** dropdown
