@@ -45,6 +45,5 @@ First of all, download the following Skill file and save it somewhere you'll rem
 # Workshop materials
 The workshop materials for each part of the lab are contained in the subfolders README files:
 * [Lab 1: Understanding User Sentiment - Integrating Watson Natural Language Understanding](./1-Sentiment)
-* [Lab 2: Extending Your Chatbot with Watson Discovery](./2-Discovery)
-* [Lab 3: Integrating External Data using IBM Cloud Functions](./3-External)
-* [Lab 4: Chatbot Integrations](./4-Integrations)
+* [Lab 2: Integrating External Data using IBM Cloud Functions](./2-External)
+* [Lab 3: Chatbot Integrations](./3-Integrations)
