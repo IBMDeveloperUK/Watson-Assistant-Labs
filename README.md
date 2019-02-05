@@ -1,6 +1,6 @@
 # Chatbots 201 - Enhance your chatbot! 
 
-This repository contains all of the slides, workshop instructions and sample applications for the following IBM Code Meetup: https://www.meetup.com/IBM-Code-London/events/258264651/
+This repository contains a lightweight version of the [Watson Assistant Labs](https://github.com/garyrwilson/Watson-Assistant-Labs) created by [@garyrwilson](https://twitter.com/garywilson) focused on the advanced abilities of Watson Assistant.
 
 In these workshops you will see how to:
 - Understand User Sentiment using _**Watson Natural Language Understanding**_
