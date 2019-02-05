@@ -233,7 +233,7 @@ In this code, the `searchForArticles` function extracts the **title** of the fir
   ]
 }
 ```
-Replace `<my-searchWikipedia-endpoint>` with the name of your `searchWikipedia` _endpoint_ - find it by selecting your _**IBM Cloud Function**_, clicking `Endpoints`, then selecting everything in the REST API URL that comes **after** https://openwhisk.ng.bluemix.net/api/v1/namespaces
+Replace `<my-searchWikipedia-endpoint>` with the name of your `searchWikipedia` _endpoint_ - find it by selecting your _**IBM Cloud Function**_ [here](https://cloud.ibm.com/openwhisk/actions), clicking `Endpoints`, then selecting everything in the REST API URL that comes **after** https://openwhisk.ng.bluemix.net/api/v1/namespaces
 
 It'll look something like this:
 ```Javascript
