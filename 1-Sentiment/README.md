@@ -84,7 +84,7 @@ IBM Watson service calls are documented [here](https://github.com/watson-develop
 
 ![](./images/10-create-action.jpg)
 
-**(7)** Call your new action `getSentiment` and hit `Create`.
+**(7)** Call your new action `getSentiment`, select `Node.js 8` as the **Runtime** and hit `Create`.
 
 ![](./images/11-create-get-sentiment.jpg)
 

@@ -72,7 +72,7 @@ _Discovery News English_ is automatically updated with approximately 425,000 new
 
 **(2)** We are going to create our own _collection_ from [this dataset](./data/discovery_data.zip) - it contains 1000 JSON documents, each containing a single question/answer pair that will help our chatbot answer questions about more specific mobile phone related issues.
 
-**Download** and **extract** [the dataset](./data/discoverydata.zip) now.
+**Download** and **extract** [the dataset](./data/discovery_data.zip) now.
 
 Here's one of the documents, to show you how they are formatted:
 ```javascript
