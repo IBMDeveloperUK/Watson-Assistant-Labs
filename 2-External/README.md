@@ -1,4 +1,4 @@
-# _**Watson Assistant Lab 3**_: Integrating External Data using IBM Cloud Functions
+# _**Watson Assistant Lab 2**_: Integrating External Data using IBM Cloud Functions
 In the final part of this lab we're going to show you how you can integrate **external web services** into your chatbot using _**IBM Cloud Functions**_. This is a really useful and important capability that allows you to build services into your chatbot that can:
 - _retrieve data from other websites_, e.g. check the weather forecast, look up flight arrival times
 - _send requests to third party applications_, e.g. reserve a table at a restaurant, book a hire car

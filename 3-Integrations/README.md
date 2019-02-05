@@ -1,4 +1,4 @@
-# _**Watson Assistant Lab 4**_: Chatbot Integrations
+# _**Watson Assistant Lab 3**_: Chatbot Integrations
 In this lab we'll build a web-hosted chat widget that will allow you to test the _**Watson Assistant**_ _skill_ you've just created in a web environment. We'll then connect your _skill_ to a third party chat service **(Slack)** to show how you can easily run your chatbot within other applications, and we'll finish by creating a live, publicly available web-hosted version of your chatbot.
 
 ## Requirements
