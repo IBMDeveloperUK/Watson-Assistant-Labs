@@ -316,4 +316,4 @@ If you want to download the complete _**Watson Assistant**_ _skill_ we've built 
 - the `Conversation Start` node to reflect your _**IBM Cloud Function**_ credentials
 - the `Call getSentiment function` node to refer to your `getSentiment` _**IBM Cloud Function**_ API details
 
-Now go to [Lab 2: Extending Your Chatbot with Watson Discovery](../2-Discovery) to discover how to increase your chatbot's knowledge base, by building _long-tail_ responses into your application!
+Now go back to [the main page](https://github.com/IBMDeveloperUK/Watson-Assistant-Labs#workshop-materials) and go on with an other workshop! 

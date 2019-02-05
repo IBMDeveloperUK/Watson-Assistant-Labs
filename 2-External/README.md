@@ -287,3 +287,5 @@ If you want to download the **complete and final** _**Watson Assistant**_ _skill
 - the `Call getSentiment function` node to refer to your `getSentiment` _**IBM Cloud Function**_ API details
 - the `Phone Information` node to refer to your `searchWikipedia` _**IBM Cloud Function API**_ details
 - the `Anything else: call Watson Discovery` node to refer to your `getDiscoveryTopHit` _**IBM Cloud Function API**_ details
+
+Now go back to [the main page](https://github.com/IBMDeveloperUK/Watson-Assistant-Labs#workshop-materials) and go on with an other workshop! 

@@ -165,3 +165,5 @@ Copy and paste these to the _Chatbot Platform_ - click the `Watson Assistant` op
 
 ## Summary
 Well done! You've now integrated your chatbot with three user interfaces!
+
+Now go back to [the main page](https://github.com/IBMDeveloperUK/Watson-Assistant-Labs#workshop-materials) and go on with an other workshop! 
