@@ -5,9 +5,6 @@ In the final part of this lab we're going to show you how you can integrate **ex
 
 In our case we're going to continue the theme of providing mobile phone services assistance, by retrieving and presenting some information about specific mobile phone models for the user, if they ask for it. We'll create a new _intent_, show you how to define _contextual entities_ and how to _import_ them, and create a _dialog_ that executes an _**IBM Cloud Function**_ to get information about a phone from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
 
-## Requirements
-- Successful completion of [Lab 2: Extending Your Chatbot with Watson Discovery](../2-Discovery).
-
 ## Agenda
 - Create `#phoneinfo` _intent_ and use _contextual entities_
 - Import entries into the `@model` _entity_
